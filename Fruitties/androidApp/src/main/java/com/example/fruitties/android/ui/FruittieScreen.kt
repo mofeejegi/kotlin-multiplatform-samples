@@ -99,7 +99,7 @@ fun FruittieScreen(
                 ) {
                     Icon(
                         painter = painterResource(R.drawable.ic_add_shopping_cart_24px),
-                        contentDescription = stringResource(R.string.add_to_cart),
+                        contentDescription = null,
                     )
                     Spacer(Modifier.width(8.dp))
                     Text(text = stringResource(R.string.add_to_cart))

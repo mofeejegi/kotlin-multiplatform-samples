@@ -85,7 +85,7 @@ fun ListScreen(
                 ) {
                     Icon(
                         painter = painterResource(R.drawable.ic_shopping_cart_24px),
-                        contentDescription = stringResource(R.string.view_cart),
+                        contentDescription = null,
                     )
                     Spacer(Modifier.width(8.dp))
                     Text(text = stringResource(R.string.view_cart, uiState.cartItemCount))
